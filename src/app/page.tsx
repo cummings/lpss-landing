@@ -19,14 +19,14 @@ export default function Home() {
       <div className='text-xs absolute bottom-5 left-0 w-full text-center'>
       <Popover>
       <PopoverTrigger asChild>
-        <Button>Let's Talk</Button>
+        <Button>{"Let's Talk"}</Button>
       </PopoverTrigger>
       <PopoverContent className="min-w-[400px]" sideOffset={-50}>
         <div className="grid gap-4">
           <div className="space-y-2">
-            <h4 className="font-medium leading-none text-xl">Let's talk</h4>
+            <h4 className="font-medium leading-none text-xl">{"Let's talk"}</h4>
             <p className="text-sm text-muted-foreground">
-              Let's talk about your project and how we can help you.
+              {"Let's talk about your project and how we can help you."}
             </p>
           </div>
           <div className="grid gap-2">
